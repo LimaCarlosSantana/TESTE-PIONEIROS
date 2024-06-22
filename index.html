@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+   <header class="header">
+        <nav class="nav container">
+           <div class="nav__data">
+              <a href="#" class="nav__logo">
+                <img src="imagens/pioneiros-logo.png" alt=""> 
+              </a>
+              <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-line nav__burger"></i>
+               <i class="ri-close-line nav__close"></i>
+            </div>
+         </div>
+
+         <!--=============== NAV MENU ===============-->
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+
+               
+
+               <!--=============== DROPDOWN 1 ===============-->
+               <li class="dropdown__item">
+                  <div class="nav__link">
+                     Pioneiros <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                  </div>
+
+                  <ul class="dropdown__menu">
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-pie-chart-line"></i> Nossa história
+                        </a>                          
+                     </li>
+
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-arrow-up-down-line"></i> Ideais
+                        </a>
+                     </li>
+
+                     <!--=============== DROPDOWN SUBMENU ===============-->
+                     <li class="dropdown__subitem">
+                        <div class="dropdown__link">
+                           <i class="ri-bar-chart-line"></i> Desbravadores <i class="ri-add-line dropdown__add"></i>
+                        </div>
+
+                        <ul class="dropdown__submenu">
+                           <li>
+                              <a href="#" class="dropdown__sublink">
+                                 <i class="ri-file-list-line"></i> Liderança
+                              </a>
+                           </li>
+   
+                           <li>
+                              <a href="#" class="dropdown__sublink">
+                                 <i class="ri-cash-line"></i> Unidades
+                              </a>
+                           </li>
+   
+                           <li>
+                              <a href="#" class="dropdown__sublink">
+                                 <i class="ri-refund-2-line"></i> Ordem Únida
+                              </a>
+                           </li>
+                        </ul>
+                     </li>
+                  </ul>
+               </li>
+               
+               <li><a href="#" class="nav__link">Game Quiz</a></li>
+
+               <!--=============== DROPDOWN 2 ===============-->
+               <li class="dropdown__item">
+                  <div class="nav__link">
+                     Atividades <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                  </div>
+
+                  <ul class="dropdown__menu">
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-user-line"></i> Eventos
+                        </a>                          
+                     </li>
+
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-lock-line"></i> Ordem Únida
+                        </a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-message-3-line"></i> Fanfarra
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+               <li><a href="#" class="nav__link">Contato</a></li>
+            </ul>
+         </div>
+      </nav>
+   </header>
+   <!--=============== SLIDER ===============-->
+   <div class="container-slide">
+      <div class="slider">
+          <div class="slides" style="--img: url('imagens/1.png');">
+              <div class="content">
+                  <h2>Slide 01</h2>
+              </div>
+          </div>
+          <div class="slides" style="--img: url('imagens/2.jpeg');">
+              <div class="content">
+                  <h2>Slide 02</h2>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam harum reiciendis dolorum odio blanditiis, maxime voluptatum laborum, a, labore neque magnam ex corrupti tempora nisi. Recusandae incidunt neque cum cumque.</p>
+              </div>
+          </div>
+          <div class="slides" style="--img: url('imagens/3.jpeg');">
+              <div class="content">
+                  <h2>Slide 03</h2>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam harum reiciendis dolorum odio blanditiis, maxime voluptatum laborum, a, labore neque magnam ex corrupti tempora nisi. Recusandae incidunt neque cum cumque.</p>
+              </div>
+          </div>
+          <div class="slides" style="--img: url('imagens/4.jpeg');">
+              <div class="content">
+                  <h2>Slide 04</h2>
+              </div>
+          </div>
+          <div class="slides" style="--img: url('imagens/5.jpg');">
+              <div class="content">
+                  <h2>Slide 05</h2>
+              </div>
+          </div>
+          <div class="slides" style="--img: url('imagens/6.jpg');">
+              <div class="content">
+                  <h2>Slide 06</h2>
+              </div>
+          </div>
+      </div>
+      <div class="buttons">
+          <span class="prev"></span>
+          <span class="next"></span>
+      </div>
+   </div>
+   <!--=============== FOOTER ===============-->
+    <footer class="footer1">
+        <div class="footer-top">
+           <div class="container">
+              <div class="col1">
+                 <a href="#" class="brand">Pioneiros do Oeste</a>
+                 <ul class="media-icons">
+                    <li>
+                       <a href="https://www.facebook.com/clubepioneirosdooeste" target="_blank">
+                          <i class="ri-facebook-circle-fill"></i>
+                       </a>
+                    </li>
+                    <li>
+                       <a href="#">
+                          <i class="ri-whatsapp-line"></i>
+                       </a>
+                    </li>
+                    <li>
+                       <a href="https://www.instagram.com/clubepioneirosdooeste/" target="_blank">
+                          <i class="ri-instagram-line"></i>
+                       </a>
+                    </li>
+                 </ul>
+              </div>
+              <div class="col2">
+                 <ul class="menu">
+                    <li>
+                       <h4>About</h4>
+                    </li>
+                    <li>
+                       <a href="#">Services</a>
+                    </li>
+                    <li>
+                       <a href="#">Portfolio</a>
+                    </li>
+                    <li>
+                       <a href="Pricing"></a>
+                    </li>
+                    <li></li>
+                 </ul>
+              </div>
+              <div class="col3">
+                 <h4>  Additional Info </h4>
+                 <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt quia doloremque repellat dolorem deleniti illum id quis accusantium aut molestiae officia, quas quos eveniet similique qui placeat facilis dignissimos ratione.
+                 </p>
+              </div>
+           </div>
+           <div class="footer-bottom">
+              <div class="container">
+                 <p>Lorem ipsum dolor sit amet
+                    - All Rights Reserved
+                 </p>
+                 <ul>
+                    <li></li>
+                 </ul>
+              </div>
+           </div>
+        </div>
+    </footer>
+   
+   
+
+    <!--=============== MAIN JS ===============-->
+    <script src="script.js"></script>
+ </body>
+</html>
