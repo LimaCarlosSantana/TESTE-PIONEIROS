@@ -490,7 +490,7 @@ a {
 
 .slider {
   position:absolute;
-  inset: 80px 200px 80px 80px;
+  inset: 80px 50px 80px 50px;
   background: #ccc;
   border-radius: 20px;
 }
@@ -634,15 +634,15 @@ a {
   }
 
   .slider .slides:nth-child(3){
-      left: 0;
-  }
-  .slider .slides:nth-child(4){
-      left: 120;
-  }
-  .slider .slides:nth-child(5){
-      left: 240;
-  }
-  .slider .slides:nth-child(6){
-      left: 360;
-  }
+    left: calc(0% + 0px);
+}
+.slider .slides:nth-child(4){
+    left: calc(0% + 120px);
+}
+.slider .slides:nth-child(5){
+    left: calc(0% + 240px);
+}
+.slider .slides:nth-child(6){
+    left: calc(0% + 360px);
+}
 }
